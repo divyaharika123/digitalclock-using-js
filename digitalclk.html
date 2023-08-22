@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body{
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-size: 3rem;
+    }
+    section
+    {
+        padding: 2rem;
+        border: 2px solid red;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    div{
+        width: 25rem;
+        height: 5rem;
+        background-color: rgb(0, 0, 0);
+        color: rgb(255, 0, 0);
+        padding: 2rem;
+    }
+    #dateid,#dayid
+    {
+        color: red;
+        font-size: 3rem;
+    }
+</style>
+<body>
+    <section>
+    <h1>DIGITAL CLOCK</h1>
+    <div id="digitalclockdiv"></div>
+    <div id="dateid"></div>
+    <div id="dayid"></div>
+</section>
+</body>
+<script src="../js/digitalclk.js"></script>
+</html>
